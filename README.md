@@ -1,6 +1,6 @@
 # Simple Structure-Based Drug Design
 
-This repository is the official implementation of SimpleSBDD models introduced in "What Ails Generative Structure-based Drug Design: Expressivity is Too Little or Too Much?".
+This repository is the official implementation of SimpleSBDD models introduced in [What Ails Generative Structure-based Drug Design: Expressivity is Too Little or Too Much?](https://openreview.net/forum?id=GHyBMTpiJg) (AISTATS'25 oral).
 
 ![Model Diagram](SimpleSBDD_no_ws.png)
 
@@ -74,3 +74,18 @@ All pre-trained models are placed in the `checkpoints` folder.
 Our model achieves the following performance:
 
 ![Results Table](results_table.png)
+
+## Reference
+
+If you find this work useful, please consider citing
+
+```
+@inproceedings{
+karczewski2025what,
+title={What Ails Generative Structure-based Drug Design: Expressivity is Too Little or Too Much?},
+author={Rafal Karczewski and Samuel Kaski and Markus Heinonen and Vikas K Garg},
+booktitle={The 28th International Conference on Artificial Intelligence and Statistics},
+year={2025},
+url={https://openreview.net/forum?id=GHyBMTpiJg}
+}
+```
